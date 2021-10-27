@@ -65,7 +65,7 @@ const useFetch = (params = null) => {
     }else{
       fetchData();
     }
-  }, [filter,fetchByRegion,fetchBySearch,fetchData,fetchbYNameData])
+  }, [filter,params,fetchByRegion,fetchBySearch,fetchData,fetchbYNameData])
 
   return {
     data,
