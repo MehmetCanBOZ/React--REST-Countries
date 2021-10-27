@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [REST-COUNTRIES](https://focused-beaver-a7030e.netlify.app/)
+- Live Site URL: 🧑‍💻 📍 [REST-COUNTRIES](https://focused-beaver-a7030e.netlify.app/) 📢 📌
 
 ## My process
 
