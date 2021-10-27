@@ -30,12 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="https://github.com/MehmetCanBOZ/React--REST-Countries/blob/master/src/assets/screensoot/1.png" alt="" width="100%" height="500"/>
-
-!["First"](https://github.com/MehmetCanBOZ/React--REST-Countries/blob/master/src/assets/screensoot/1.png)
-!["Second"](https://github.com/MehmetCanBOZ/React--REST-Countries/blob/master/src/assets/screensoot/2.png)
-!["Third"](https://github.com/MehmetCanBOZ/React--REST-Countries/blob/master/src/assets/screensoot/3.png)
-!["Fourth"](https://github.com/MehmetCanBOZ/React--REST-Countries/blob/master/src/assets/screensoot/4.png)
+<img src="https://github.com/MehmetCanBOZ/React--REST-Countries/blob/master/src/assets/screensoot/1.png" alt="all"/>
 
 ### Links
 
