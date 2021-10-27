@@ -31,7 +31,7 @@ const useFetch = (params = null) => {
 
   }
 
-  const fetchByRegion = async () =>{
+  const fetchByaRegion = async () =>{
     try {
       const {data} = await CountryServices.getbyFilter(filter)
       setData(data);
@@ -59,13 +59,13 @@ const useFetch = (params = null) => {
     if(params){
       fetchbYNameData();
     }else if(filter.region){
-      fetchByRegion();
+      fetchByaRegion();
     }else if(filter.name){
       fetchBySearch()
     }else{
       fetchData();
     }
-  }, [filter,params,fetchByRegion,fetchBySearch,fetchData,fetchbYNameData])
+  }, [filter,params,fetchByaRegion,fetchBySearch,fetchData,fetchbYNameData])
 
   return {
     data,
