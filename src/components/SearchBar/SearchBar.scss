@@ -1,0 +1,23 @@
+@import '../../assets/sass/colors';
+@import '../../assets/sass/mixin';
+
+.search{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:20px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  width: 400px;
+  @include tablet{
+    width: 280px;
+  }
+}
+
+.searchInput{
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+}

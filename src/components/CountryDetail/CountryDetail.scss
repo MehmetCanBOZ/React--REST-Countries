@@ -1,0 +1,57 @@
+@import "../../assets/sass/mixin";
+
+.detail-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 80px;
+
+  img{
+    width:80%;
+    height:400px;
+    @include middleScreen{
+      width:60%;
+      height:300px;
+    }
+  }
+  @include middleScreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .detail-card-info{
+    display: flex;
+    flex-direction: column;
+    @include middleScreen{
+      justify-content: center;
+      align-items: center;
+    }
+    .counrtyName{
+      margin-bottom: 40px;
+    }
+    .info-detail{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      @include middleScreen{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+      }
+    }
+    .info-text{
+      margin-bottom: 10px;
+      font-size: 300;
+    }
+    .borders{
+      display: flex;
+      gap:10px;
+      .border-country{
+        padding: 2px 10px;
+        border-radius: 3px;
+      }
+    }
+  }
+}

@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import {ThemeProvider} from './context/useThemeContext';
 import reportWebVitals from './reportWebVitals';
+import {FilterProvider} from "./context/useFilterContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider>
+      <FilterProvider>
+          <App />
+      </FilterProvider>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

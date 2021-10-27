@@ -1,0 +1,63 @@
+@import "../../assets/sass/colors";
+@import "../../assets/sass/mixin";
+
+.main{
+  width: 90%;
+  margin: 0 auto;
+  min-height: 92vh;
+}
+.filter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include tablet{
+    flex-direction: column;
+  }
+}
+.dark-background{
+ background-color: $VeryDarkBlue;
+}
+
+.light-background{
+  background-color: $VeryLightGray;
+}
+.dark-elements{
+ color: white;
+ background-color: $Dark_Blu;
+}
+.light-elements{
+  background-color:white;
+}
+.light-text{
+  color:$VeryDarkBlue;
+}
+.dark-text{
+  color: white;
+}
+.country{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap:100px ;
+  row-gap: 55px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+
+  @include bigScrenn{
+   grid-template-columns: repeat(3,1fr);
+  }
+  @include middleScreen{
+    grid-template-columns: repeat(2,1fr);
+  }
+  @include tablet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}

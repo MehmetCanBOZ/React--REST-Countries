@@ -1,0 +1,43 @@
+@import '../../assets/sass/colors';
+@import '../../assets/sass/mixin';
+.card{
+ border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+ box-shadow: 2px 10px 16px -4px rgba(0,0,0,0.4);
+ width: 320px;
+ @include mobile{
+   width: 280px;
+ }
+ img{
+   height: 180px;
+   width: 320px;
+   @include mobile{
+    width: 280px;
+  }
+ }
+ &__info{
+   padding: 20px 0px 30px 20px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   margin-top: -3px;
+   .county_name{
+     margin-bottom:15px;
+   }
+   .light-text{
+    color: $VeryDarkBlue
+    }
+    .dark-text{
+      color: 'white'
+    }
+   .info{
+     margin-top:5px;
+     font-size:14px;
+     font-weight:300;
+     span{
+       font-weight:600;
+     }
+   }
+ }
+
+}
+
