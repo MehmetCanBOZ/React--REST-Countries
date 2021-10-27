@@ -30,7 +30,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+!["First"](https://github.com/MehmetCanBOZ/React--REST-Countries/blob/master/src/assets/screensoot/1.png)
+!["Second"](https://github.com/MehmetCanBOZ/React--REST-Countries/blob/master/src/assets/screensoot/2.png)
+!["Third"](https://github.com/MehmetCanBOZ/React--REST-Countries/blob/master/src/assets/screensoot/3.png)
+!["Fourth"](https://github.com/MehmetCanBOZ/React--REST-Countries/blob/master/src/assets/screensoot/4.png)
 
 ### Links
 
