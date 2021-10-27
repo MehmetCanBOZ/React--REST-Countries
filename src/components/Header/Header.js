@@ -14,7 +14,7 @@ const Header = () => {
       <div className={`header`}>
         <h1>Where in the world?</h1>
         <div className="toggle-mode">
-          <img src={mode === "light" ? Light : Dark} onClick={() => changeTheme()}/>
+          <img src={mode === "light" ? Light : Dark} onClick={() => changeTheme()} alt="flag"/>
           <h3>Dark Mode</h3>
         </div>
       </div>

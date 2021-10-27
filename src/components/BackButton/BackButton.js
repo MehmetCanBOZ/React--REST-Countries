@@ -10,7 +10,7 @@ const BackButton = () => {
   return (
     <Link to="/" style={{ textDecoration: 'none' }}>
       <div className={`backButton ${mode}-elements`}>
-        <img src={mode === 'light' ? LightBack : DarkBack}/>
+        <img src={mode === 'light' ? LightBack : DarkBack} alt="back-button"/>
         <p className={`buttonText ${mode}-text`}>Back</p>
       </div>
     </Link>

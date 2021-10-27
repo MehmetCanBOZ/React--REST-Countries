@@ -19,7 +19,7 @@ const SearchBar = () => {
 
   return (
     <div className={`search ${mode}-elements disabled`}>
-      <img src={mode === "light" ? LightSearch : DarkSearch}/>
+      <img src={mode === "light" ? LightSearch : DarkSearch} alt="search"/>
       <input  className={`searchInput ${mode}-elements`} placeholder={filter.region ? "Please make region filter default value": "Search for a country..." }   value={filter.name} onChange={handleChangeSearch} disabled={filter.region ? true : false }/>
     </div>
   )

@@ -62,11 +62,10 @@ const useFetch = (params = null) => {
       fetchByRegion();
     }else if(filter.name){
       fetchBySearch()
-    }
-    else{
+    }else{
       fetchData();
     }
-  }, [filter])
+  }, [filter,fetchByRegion,fetchBySearch,fetchData,fetchbYNameData])
 
   return {
     data,

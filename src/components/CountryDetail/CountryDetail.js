@@ -5,7 +5,7 @@ const CountryDetail = ({data}) => {
   const {mode} = useContext(ThemeContext);
   return (
     <div className="detail-card">
-      <img src={data?.flags?.svg} width="80%" height="400"/>
+      <img src={data?.flags?.svg} width="80%" height="400" alt="flag"/>
     
       <div className="detail-card-info">
          <h3 className={`counrtyName ${mode}-text`}>{data?.name}</h3>

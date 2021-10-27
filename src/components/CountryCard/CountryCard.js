@@ -10,7 +10,7 @@ const CountryCard = ({name,flag,population,region,capital}) => {
     <Link to={`/${name}`} style={{ textDecoration: 'none' }}>
     <div className="card">
      
-        <img src={flag}/>
+        <img src={flag} alt="flag"/>
         <div className={`card__info ${mode}-elements`}>
           <h4 className={`county_name ${mode}-text`}>{name}</h4>
           <p className={`info ${mode}-text`}><span>Population: </span>{population.toLocaleString("en-US")}</p>

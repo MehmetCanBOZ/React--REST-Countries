@@ -1,13 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './Home.scss'
-import Header from '../../components/Header/Header'
 import CountryCard from '../../components/CountryCard/CountryCard'
 import SearchBar from '../../components/SearchBar/SearchBar'
 import FilterBar from '../../components/FilterBar/FilterBar'
 import useFetch from '../../hooks/useFetch'
 import ReactLoading from 'react-loading';
 import { ThemeContext, useContext } from '../../context/useThemeContext'
-import { FilterContext } from '../../context/useFilterContext' ;
+
 
 const Home = () => {
   const  {mode} = useContext(ThemeContext)
